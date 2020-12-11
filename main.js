@@ -38,7 +38,7 @@ function New_Img(Get_Img){
 
 window.addEventListener("keydown", My_Keys);
 
-function My_Keys(){
+function My_Keys(e){
     keyPressed = e.keyCode;
     if(keyPressed=="70"){
         New_Img("ironman_face.png");
